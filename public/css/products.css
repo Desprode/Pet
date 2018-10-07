@@ -1,0 +1,26 @@
+/*商品标题提示*/
+.pro_list{margin-top:0;}
+.pro_list a:hover{
+    text-decoration: none;
+}
+.pro_l{background:#E0E0E0;}
+.pro_word{height:40px;font-size:20px;color:white;padding:8px;padding-left:15px;}
+.product_show{margin-bottom:20px;}
+.product_show>img{width:240px;margin-top:5px;}
+.product_show p{margin-top:12px;font-size:12px;}
+.product_price{color:#CC0000;font-weight:bold;}
+.sale_count{color:#C49173;font-weight:bold;margin-right:50px;}
+.comment{color:#3388BB;}
+.pro_row{margin-top:10px;}
+.ins{margin-top:10px;}
+.message{height:325px;background:white;font-size:18px;color:red;padding:20px;}
+.message>a>img{margin-left:25px;}
+/*页码*/
+.yema{position:relative;height:120px;}
+.yema>ul{position:absolute;top:50%;right:5%;}
+.yema ul li{float:left;}
+.yema ul li a{display:inline-block;width:24px;height:24px;text-align:center;line-height:24px;
+               background:#A8A8A8;border-radius:2px;margin-left:12px;color:black;}
+.yema ul li a.site{width:50px;font-weight:bold;}
+.yema ul li a:hover{text-decoration:none;background:#0AA1ED;color:white;}
+.yema ul li a.active{background:#0AA1ED;color:white;}

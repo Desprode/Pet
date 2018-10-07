@@ -1,0 +1,75 @@
+/*用户注册页面自定义表单*/
+.form{
+    font-size:20px;
+    position:relative;
+    height:700px;
+    background-size:1100px auto;
+    width:1100px;
+    margin:0 auto;
+}
+/*背景视频*/
+.from>video{
+    width:1000px;height:800px;
+}
+.toR:hover{
+    color:blue;
+}
+.form tr{
+    line-height:50px;
+}
+.form tr td {
+    text-align:center;
+}
+.form tr td:first-child{
+    width:100px;text-align:right;
+}
+.form tr td:nth-child(2){
+    width:100px;
+}
+.form tr td:last-child{
+    text-align:left;width:150px;text-align:left;
+}
+.form tr td a{
+    font-size:15px;color:white;
+}
+.form table{
+    position:absolute;
+    left:50%; top:20%;
+    background:#3D2928;
+    color:white;
+    opacity:0.6;
+    height:455px;
+    width:500px;
+}
+.form input{
+    padding-left:8px;
+    padding-right:8px;
+    outline:none;
+    border-radius:3px;
+    border:1px solid gray;
+    height:25px;width:180px;
+    font-size:12px;
+    padding-top:3px;
+    padding-bottom:3px;
+}
+.form span{
+    font-size:12px;
+    margin-left:8px;
+}
+.form button{
+    outline:none;
+    border:1px solid #18A8F1;
+    background:#18A8F1;
+    color:white;
+    width:155px;height:30px;
+    cursor:pointer;
+    border-radius:3px;}
+.msg-succ{
+    background:green;color:white;padding:5px;
+}
+.msg-err{
+    background:red;color:white;padding:5px;
+}
+.msg-default{
+    background:gray;color:white;padding:5px;
+}

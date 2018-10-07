@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>购物车</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<div class="main" >
+    <header id="header">
+    </header>
+    <main id="main" >
+        <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-transparent border-bottom box-shadow">
+            <h5 class="my-0 mr-md-auto font-weight-bold">购物车</h5>
+            <nav class="my-2 my-md-0 mr-md-3">
+                <span class="p-2 text-dark small">已选</span>
+                <span class="p-2 text-primary font-weight-bold total">0</span>
+                <span class="p-2 text-dark small">种商品 合计(不计运费)：</span>
+                    <span>¥</span>
+                    <span class="p-2 text-primary font-weight-bold susum">0.00</span>
+            </nav>
+        </div>
+        <table id="cart" class="table">
+            <thead>
+            <tr class="small text-muted text-center">
+                <th class="py-1">
+                    <div class="all">
+                        <span class="btn btn-sm text-muted pl-1 ">
+                            <img src="img/cart/product_normal.png" alt="">全选
+                        </span><input type="hidden" name="" value="">
+                    </div>
+                </th>
+                <th class="align-middle py-1">商品</th>
+                <th class="align-middle py-1">单价(元)</th>
+                <th class="align-middle py-1">数量</th>
+                <th class="align-middle py-1">金额</th>
+                <th class="align-middle py-1">操作</th>
+            </tr>
+            </thead>
+        </table>
+        <div class="container">
+            <!--动态插入购物车数据-->
+            <div></div>
+        </div>
+        <div id="cart-footer" class="d-flex flex-column flex-md-row align-items-center pl-2 pr-0 my-3 border-bottom box-shadow">
+          <span class="my-0 mr-md-auto small">
+              <div class="all">
+                    <span class="btn btn-sm text-muted pl-1 normal ">
+                        <img src="img/cart/product_normal.png" alt="">全选
+                    </span><input type="hidden" name="" value="">
+              </div>
+          </span>
+            <nav class="my-2 my-md-0 mr-md-3">
+                <span class="p-2 text-dark small">已选</span>
+                <span class="p-2 text-primary font-weight-bold totalOne">0</span>
+                <span class="p-2 text-dark small">种商品 合计(不计运费)：</span>
+                    <span>¥</span>
+                    <span class="p-2 text-primary font-weight-bold susumOne">0.00</span>
+            </nav>
+            <a class="btn btn-primary px-5" href="order.html">去结算</a>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-body pt-5 pl-5">
+                        <p id="alertMsg_info"> <img style="height:50px;" src="img/register/tan.png" alt=""><span class="ml-5 pl-5">您尚未登录！</span></p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-warning text-white" onclick="javascript:location.href='login.html'">确定</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer id="footer">
+    </footer>
+</div>
+<script src="js/jquery-3.2.1.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/ajax.js"></script>
+<script src="js/header.js"></script>
+<script src="js/footer.js"></script>
+<script src="js/cart.js"></script>
+<script>
+    /*$('#myModal').modal('show');*/
+</script>
+</body>
+</html>

@@ -1,0 +1,258 @@
+/*网页头部样式定义*/
+.header{
+    background:#FCFCFC;
+}
+.sousuo{
+    padding-top:100px;
+    margin-left:60px;
+    padding-bottom:25px;
+    width:91%;
+    height:121px;
+
+}
+.sousuo button{
+    height:35px;
+    background:#FF0036;
+    border:2px solid #FF0036;
+    color:white;
+    font-weight:bold;
+    width:80px;
+    outline:none;
+    cursor:pointer;
+}
+.sousuok{
+    margin-left:10px;
+    width:310px;
+    height:35px;
+    border:2px solid #FF0036;
+    border-right:none;
+    padding-left:5px;
+    outline:none;
+}
+.denglu{
+    list-style:none;
+    padding-top:56px;
+    margin-left:-45px;
+    margin-top:5px;
+    margin-bottom:-30px;
+}
+.denglu:after{
+    content:"";
+    height:0px;
+    visibility:hidden;
+    display:block;
+    clear:both;
+}
+.denglu >li{
+    float:left;
+    line-height:121px;
+    margin-left:7px;
+}
+.denglu >li a{
+    border-right:1px solid gray; padding-right:10px; color:black; font-weight:bold;
+}
+/*网站导航navbar*/
+.daohang{
+    list-style:none;
+    padding:0;
+    width:100%;
+    display:flex;
+    background:#FF9501;
+    justify-content: space-between;
+    margin-bottom:15px;
+    margin-top:25px;
+}
+.daohang:after{
+    content:"";
+    height:0;
+    visibility:hidden;
+    display:block;
+    clear:both;
+}
+/*导航中的li定义样式*/
+.daohang>li{
+    float:left;
+    margin:auto;
+    text-align:center;
+    height:45px;
+    line-height:45px;
+}
+/*导航标签定义样式*/
+.daohang>li>a{
+    width:189px;
+    display:inline-block;
+    color:white;
+    font-weight:bold;
+    text-decoration:none;
+    height:45px;
+}
+/*导航内容 鼠标悬停背景变为白色，字体颜色变为黑色*/
+.daohang>li>a:hover{
+    background:white;
+    color:black;
+}
+/*背景图像固定后，背景不会随着页面改变而变化*/
+.rel{
+    height:1060px;
+    position:relative;
+    background:no-repeat fixed;
+    background-size:cover;
+}
+/*图像设置为百分之百*/
+.rel img{
+    width:100%;
+}
+/*添加固定到页面的背景图片*/
+.rel.home{
+    background-image:url("../images/home0.jpg");
+}
+.rel.hat{
+    background-image:url("../images/hat0.jpg");
+}
+.rel.cloth{
+    background-image:url("../images/cloth0.jpg");
+}
+/*chongwu wo ju*/
+.woju {
+    background:#FCFCFC;
+    color:#FF6D00;
+    position:relative;
+}
+.woju .glyphicon{
+    font-size:35px;
+    margin-top:35px;
+    margin-bottom:10px;
+}
+.woju .woju-btn{
+    height:80px;width:280px;
+    margin-top: 78px;
+    margin-left: 153px;
+}
+.woju .woju-btn a{
+    display:inline-block;
+    width:120px;
+    height:36px;
+    text-align:center;
+    line-height:36px;
+    text-decoration:none;
+    font-size:15px;
+    border:2px solid gray;
+    margin-bottom:5px;
+    margin-right:15px;
+    border-radius:30px;
+}
+.woju .woju-btn a:hover{
+    background:#FF6D00;
+    color:white;
+    border-color:#FF6D00;
+}
+.woju-pro{
+    margin-top:35px;
+}
+.woju .bor{
+    border-bottom:8px solid #FF6D00;
+    margin-top: 15px;
+}
+/*设置宠物窝具图片为绝对定位*/
+.woju-pro img{
+    height:116%;
+    width:auto;
+    position:absolute;
+    left:-22px;
+    top:-33px;
+    opacity:0;
+}
+/*设置相对定位为子元素提供服务*/
+.woju-pro .bg{
+    height:350px;
+    background-size: 116% auto;
+    background-position: center;
+    position:relative;
+}
+/*设置宠物窝具背景图片*/
+.bg1{
+    background: url("../images/woju-pro1.png") no-repeat;
+}
+.bg2{
+    background: url("../images/woju-pro2.png") no-repeat;
+}
+.bg3{
+    background: url("../images/woju-pro3.png") no-repeat;
+}
+.bg4{
+    background: url("../images/woju-pro4.png") no-repeat;
+}
+.woju-pro img:hover{
+    opacity:1;
+    transform:scale(1.03)
+}
+/*cloth*/
+.cth1{
+    background: url("../images/colth1.png") no-repeat;
+}
+.cth2{
+    background: url("../images/colth2.png") no-repeat;
+}
+.cth3{
+    background: url("../images/colth3.png") no-repeat;
+}
+.cth4{
+    background: url("../images/colth4.png") no-repeat;}
+
+/*cleaning*/
+.cle1{
+    background: url("../images/clean1.png") no-repeat;
+}
+.cle2{
+    background: url("../images/clean2.png") no-repeat;
+}
+.cle3{
+    background: url("../images/clean3.png") no-repeat;
+}
+.cle4{
+    background: url("../images/clean4.png") no-repeat;
+}
+/*food*/
+.food1{
+    background: url("../images/food1.png") no-repeat;
+}
+.food2{
+    background: url("../images/food2.png") no-repeat;
+}
+.food3{
+    background: url("../images/food3.png") no-repeat;
+}
+.food4{
+    background: url("../images/food4.png") no-repeat;
+}
+/*back to top*/
+.back-to-top{
+    position:relative;
+}
+.back-to-top img{
+    width:auto;height:auto;
+    max-width:100%;
+    max-height:100%;
+}
+.back-to-top a{
+    display:block;
+    position:absolute;
+    width: 170px;
+    height: 30px;
+    left: 43%;
+    top: 130px;
+}
+
+/*定制电梯按钮的样式*/
+#main>.btn-group-vertical{
+    top:100px;
+    left:10px;
+}
+#main>.btn-group-vertical>.btn-secondary:hover {
+    background-color: #e4393c;
+    border-color: #e4393c;
+}
+
+
+
+

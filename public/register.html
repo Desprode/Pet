@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>用户注册</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/register.css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <style>
+        div{
+            /*border:1px solid black;*/
+        }
+    </style>
+</head>
+<body>
+   <div class="form">
+      <video  style="width:1100px; height:800px;" src="res/registerbg.mp4" autoplay muted loop></video>
+      <form id="form-register">
+          <table>
+              <tr>
+                  <td></td>
+                  <td style="text-align:center"><b>新用户注册</b></td>
+                  <td><a href="login.html"  class="toR">直接登录</a></td>
+              </tr>
+              <tr>
+                  <td>用户名:</td>
+                  <td><input type="text" minlength="3" maxlength="9"  placeholder="请输入用户名" id="uname" name="uname"></td>
+                  <td><span id="uname-msg"></span></td>
+              </tr>
+              <tr>
+                  <td>登录密码:</td>
+                  <td><input type="password" minlength="6" maxlength="12" placeholder="请输入密码" id="upwd" name="upwd"></td>
+                  <td><span id="upwd-msg"></span></td>
+              </tr>
+              <tr>
+                  <td>确认密码:</td>
+                  <td><input type="password"  placeholder="请确认密码" id="cpwd" name="cpwd"></td>
+                  <td><span id="show-msg"></span></td>
+              </tr>
+              <tr>
+                  <td>邮箱:</td>
+                  <td><input type="email" placeholder="请输入邮箱" id="email" name="email"></td>
+                  <td><span id="email-msg"></span></td>
+              </tr>
+              <tr>
+                  <td>手机号:</td>
+                  <td><input type="text" placeholder="请输入手机号" id="phone" name="phone"></td>
+                  <td><span id="phone-msg"></span></td>
+              </tr>
+              <tr>
+                  <td></td>
+                  <td style="text-align:center"><button id="btn_register">提交注册信息</button></td>
+                  <td><button type="reset" style="width:60px;">重置</button></td>
+              </tr>
+          </table>
+      </form>
+   </div>
+   <script src="js/register.js" ></script>
+</body>
+</html>
